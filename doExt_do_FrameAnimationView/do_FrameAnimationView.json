@@ -1,0 +1,77 @@
+{
+  "ID": "do_FrameAnimationView",
+  "IsContainer": "0",
+  "Type": "UI",
+  "Name": "帧动画视图",
+  "Version": "Internal",
+  "Description": "",
+  "Icon": "",
+  "IOS": {
+    "Support": 0,
+    "MinVersion": ""
+  },
+  "Android": {
+    "Support": 0,
+    "MinVersion": ""
+  },
+  "Windows": {
+    "Support": 0,
+    "MinVersion": ""
+  },
+  "WindowsPhone": {
+    "Support": 0,
+    "MinVersion": ""
+  },
+  "Html": {
+    "Support": 1,
+    "MinVersion": "5.0"
+  },
+  "Properties": [
+    {
+      "ID": "gifSource",
+      "Name": "gif资源",
+      "Type": "String",
+      "DefaultValue": "",
+      "EditType": "1",
+      "Group": "",
+      "Description": "支持data://, source://路径",
+      "Design": {
+        "Type": "Text",
+        "Data": []
+      }
+    },
+    {
+      "ID": "imagesSource",
+      "Name": "图片列表",
+      "Type": "Node",
+      "DefaultValue": "",
+      "EditType": "1",
+      "Group": "",
+      "Description": "{ repeat: 0,//0表示一直执行，1表示只执行一次 images: [ path:\"data://1.png\",duration:50, path:\"data://2.png\",duration:50, path:\"data://3.png\",duration:50, path:\"data://4.png\",duration:50, ] }，支持data://, source://路径",
+      "Design": {
+        "Type": "Richtext",
+        "Data": []
+      }
+    }
+  ],
+  "Events": [],
+  "syncMethodes": [
+    {
+      "ID": "start",
+      "Name": "开始播放",
+      "Description": "",
+      "ReturnType": "",
+      "ReturnDesc": "",
+      "Paras": []
+    },
+    {
+      "ID": "stop",
+      "Name": "结束动画",
+      "Description": "",
+      "ReturnType": "",
+      "ReturnDesc": "",
+      "Paras": []
+    }
+  ],
+  "asyncMethodes": []
+}

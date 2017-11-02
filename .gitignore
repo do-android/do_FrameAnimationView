@@ -1,0 +1,10 @@
+*.class
+*.apk
+bin/
+gen/
+.settings/
+proguard/
+*.classpath
+/doExt_do_FrameAnimationView/libs/docore.jar
+/doExt_do_FrameAnimationView/do_build.xml
+/doExt_do_FrameAnimationView/do_FrameAnimationView.zip
